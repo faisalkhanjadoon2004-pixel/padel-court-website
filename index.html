@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Padel Court Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="overlay">
+  <h1>Padel Court Booking</h1>
+  <p class="price">Price: <strong>PKR 3000 / hour</strong></p>
+
+  <div class="booking-card">
+    <input type="text" id="playerName" placeholder="Player Name">
+  
+    <input type="date" id="bookingDate">
+  
+    <select id="slotSelect"></select>
+  
+    <button onclick="bookSlot()">Book Slot</button>
+  
+    <p id="status"></p>
+  </div>
+  
+  <h2>Slot Availability</h2>
+  <ul id="availabilityList"></ul>
+  
+
+  <h2>Slot Availability</h2>
+  <ul id="availabilityList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
